@@ -13,6 +13,7 @@ app.post('/',(req,res) =>{
     console.log(data);
     res.send('data-recived');
 });
+// adding comment
 
 const PORT = 5001;
 app.listen(PORT,()=>console.log("server running cool!"));
